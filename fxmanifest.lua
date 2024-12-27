@@ -8,16 +8,14 @@ author 'Maximus7474'
 repository 'https://github.com/Maximus7474/lb-tablet-dispatch-converter'
 version '0.0.0'
 
-files {
+client_scripts {
+	'client/*.lua',
     'utils/*.lua'
 }
 
-client_scripts {
-	'client/*.lua',
-}
-
 server_scripts {
-	'server/*.lua'
+	'server/*.lua',
+    'utils/*.lua'
 }
 
 provide 'qtarget'
