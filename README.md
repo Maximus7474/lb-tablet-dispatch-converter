@@ -1,4 +1,9 @@
 # Dispatch Converter
+
+![](https://img.shields.io/github/downloads/Maximus7474/lb-tablet-dispatch-converter/total?logo=github)
+![](https://img.shields.io/github/contributors/Maximus7474/lb-tablet-dispatch-converter?logo=github)
+![](https://img.shields.io/github/v/release/Maximus7474/lb-tablet-dispatch-converter?logo=github) 
+
 A script providing compatibility from other dispatch/mdt scripts to also work with lb-tablet's police MDT.
 
 > [!NOTE]
