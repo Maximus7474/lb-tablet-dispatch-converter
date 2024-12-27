@@ -10,6 +10,11 @@ A script providing compatibility from other dispatch/mdt scripts to also work wi
 > This resource is still in beta phase, breaking changes can occur without notice.
 > Please open issues for bug reports, other dispatch services to integrate with maximum information.
 
+## Supported Dispatch systems
+- QS Dispatch
+- PS Dispatch
+  - Partially
+
 ## Setup:
 > [!NOTE]
 > This resource is using [convars](https://docs.fivem.net/docs/scripting-reference/convars/) to define certain functionalities.
