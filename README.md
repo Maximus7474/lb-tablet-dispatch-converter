@@ -4,3 +4,12 @@ A script providing compatibility from other dispatch/mdt scripts to also work wi
 > [!NOTE]
 > This resource is still in beta phase, breaking changes can occur without notice.
 > Please open issues for bug reports, other dispatch services to integrate with maximum information.
+
+## Setup:
+> [!NOTE]
+> This resource is using [convars](https://docs.fivem.net/docs/scripting-reference/convars/) to define certain functionalities.
+
+```bash
+# Set the default/fallback time (in seconds) for dispatch messages
+setr lb-tablet-dispatch:default-time 100
+```
