@@ -14,7 +14,7 @@ AddEventHandler('qs-dispatch:server:CreateDispatchCall', function (data)
           label = data?.callCode.snippet or "Call Origin",
           coords = vector2(data?.callLocation.x or 0, data?.callLocation.y or 0)
         },
-        time = data?.blip.time and math.floor(data.blip.time / 1000) or 100,
+        time = data?.blip.time and math.floor(data.blip.time / 1000) or CONFIG['default-time'],
         job = "police"
     })
 end)

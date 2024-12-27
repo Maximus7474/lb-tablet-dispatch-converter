@@ -16,7 +16,7 @@ AddEventHandler('ps-dispatch:server:notify', function (data)
           label = data?.codename or "Call Origin",
           coords = vector2(data?.coords.x or 0, data?.coords.y or 0)
         },
-        time = 100,
+        time = CONFIG['default-time'],
         job = "police"
     })
 end)
