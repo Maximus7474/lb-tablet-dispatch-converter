@@ -8,7 +8,7 @@ AddEventHandler('qs-dispatch:server:CreateDispatchCall', function (data)
     exports["lb-tablet"]:AddDispatch({
         priority = priority,
         code = data?.callCode.code or '',
-        title = data?.callCode.snippet or 'Crime Reported',
+        title = data?.callCode.snippet or 'Dispatch Notification',
         description = data.message or '',
         location = {
           label = data?.callCode.snippet or "Call Origin",
