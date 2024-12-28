@@ -17,5 +17,3 @@ server_scripts {
 	'server/*.lua',
     'utils/*.lua'
 }
-
-provide 'qtarget'
