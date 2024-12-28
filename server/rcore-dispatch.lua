@@ -1,8 +1,16 @@
 AddEventHandler('rcore_dispatch:server:sendAlert', function (data)
+    local callTitles = {
+        default = "Dispatch Notification",
+        shop_robbery  = "Shop Robbery",
+        car_robbery = "Car Robbery",
+        --[[ etc... ]]
+    }
+    local type = callTitles[data?.type or "default"] or callTitles.default
+  
     exports["lb-tablet"]:AddDispatch({
         priority = data.default_priority,
         code = data?.code or '',
-        title = 'Dispatch Notification',
+        title = type or 'Dispatch Notification',
         description = data.text or '',
         location = {
           label = data?.blip.text or "Call Origin",
