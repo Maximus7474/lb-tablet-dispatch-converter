@@ -1,4 +1,4 @@
-AddEventHandler('qs-dispatch:server:CreateDispatchCall', function (data)
+RegisterNetEvent('qs-dispatch:server:CreateDispatchCall', function (data)
 
     local priority = "medium"
     if data.flashes then

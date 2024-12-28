@@ -1,4 +1,4 @@
-AddEventHandler('ps-dispatch:server:notify', function (data)
+RegisterNetEvent('ps-dispatch:server:notify', function (data)
 
     local priority = "low"
     if data.priority == 2 then

@@ -1,9 +1,8 @@
-AddEventHandler('rcore_dispatch:server:sendAlert', function (data)
+RegisterNetEvent('rcore_dispatch:server:sendAlert', function (data)
     local callTitles = {
         default = "Dispatch Notification",
         shop_robbery  = "Shop Robbery",
         car_robbery = "Car Robbery",
-        --[[ etc... ]]
     }
     local type = callTitles[data?.type or "default"] or callTitles.default
   
