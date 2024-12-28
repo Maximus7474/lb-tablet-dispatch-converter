@@ -12,8 +12,12 @@ A script providing compatibility from other dispatch/mdt scripts to also work wi
 
 ## Supported Dispatch systems
 - QS Dispatch
+  - Untested
 - PS Dispatch
-  - Partially
+  - Partially Integrated
+  - Untested
+- RCORE Dispatch
+  - Untested
 
 ## Setup:
 
