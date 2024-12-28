@@ -10,7 +10,7 @@ AddEventHandler('rcore_dispatch:server:sendAlert', function (data)
     exports["lb-tablet"]:AddDispatch({
         priority = data.default_priority,
         code = data?.code or '',
-        title = type or 'Dispatch Notification',
+        title = type,
         description = data.text or '',
         location = {
           label = data?.blip.text or "Call Origin",
