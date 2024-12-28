@@ -16,6 +16,11 @@ A script providing compatibility from other dispatch/mdt scripts to also work wi
   - Partially
 
 ## Setup:
+
+This script acts as a brdige and provides event handlers to the supported dispatch systems to convert the dispatch events to work with lb-tablet.
+Please note that there are limitations on these and not all data can be converted properly.
+It is highly recommended to alter the scripts creating the calls/dispatch events directly with the [AddDispatch](https://docs.lbscripts.com/tablet/script-integration/server-exports/#adddispatch) export. 
+
 > [!NOTE]
 > This resource is using [convars](https://docs.fivem.net/docs/scripting-reference/convars/) to define certain functionalities.
 
