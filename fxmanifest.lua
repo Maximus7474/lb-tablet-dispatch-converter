@@ -6,7 +6,7 @@ game 'gta5'
 name 'LB Tablet Dispatch Backwards Compatibility'
 author 'Maximus7474'
 repository 'https://github.com/Maximus7474/lb-tablet-dispatch-converter'
-version 'v0.1.1'
+version 'v0.2.0'
 
 client_scripts {
 	'client/*.lua',
