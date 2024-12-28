@@ -16,7 +16,7 @@ AddEventHandler('rcore_dispatch:server:sendAlert', function (data)
           label = data?.blip.text or "Call Origin",
           coords = vector2(data?.coords.x or 0, data?.coords.y or 0)
         },
-        time = data?.blip_time and math.floor(data.blip_time / 1000) or CONFIG['default-time'],
+        time = CONFIG['default-time'],
         job = "police"
     })
 end)
