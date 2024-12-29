@@ -1,0 +1,10 @@
+{
+    "DEFAULT": {
+        "TITLE": "Dispatch Notification",
+        "LOCATION_LABEL": "Call Origin"
+    },
+    "RCORE": {
+        "SHOP_ROBBERY": "Shop Robbery",
+        "CAR_ROBBERY": "Car theft"
+    }
+}
