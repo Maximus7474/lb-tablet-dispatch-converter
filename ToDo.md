@@ -1,5 +1,5 @@
 ## Global
-- [ ] Locale Integration
+- [x] Locale Integration
 - [ ] Add a system to differentiate ambulance & police calls
     - Using convars to determine job name lists
 
