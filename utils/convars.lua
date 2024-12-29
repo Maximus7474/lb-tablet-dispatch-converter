@@ -21,7 +21,7 @@ for _, job in pairs(policeJobs) do
 end
 
 success, result = pcall(function()
-    return json.decode(GetConvar('lb-tablet-dispatch:police-jobs', '["ambulance", "hospital", "sams"]'))
+    return json.decode(GetConvar('lb-tablet-dispatch:ambulance-jobs', '["ambulance", "hospital", "sams"]'))
 end)
 if success then
     ambulanceJobs = result
