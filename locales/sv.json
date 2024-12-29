@@ -1,0 +1,10 @@
+{
+    "DEFAULT": {
+        "TITLE": "SOS Alarm",
+        "LOCATION_LABEL": "Plats"
+    },
+    "RCORE": {
+        "SHOP_ROBBERY": "Butiksrån",
+        "CAR_ROBBERY": "Bilstöld"
+    }
+}
