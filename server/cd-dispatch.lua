@@ -1,6 +1,11 @@
 RegisterNetEvent('cd_dispatch:AddNotification', function (data)
+    local priority = "medium"
+    if data.flash == 1 then
+        priority = "high"
+    end
+
     exports["lb-tablet"]:AddDispatch({
-        priority = data?.flash and "high" or "medium",
+        priority = priority,
         code = '',
         title = data?.title or 'Dispatch Notification',
         description = data?.message or '',
