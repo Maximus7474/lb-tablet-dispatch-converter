@@ -10,10 +10,10 @@ RegisterNetEvent('ps-dispatch:server:notify', function (data)
     exports["lb-tablet"]:AddDispatch({
         priority = priority,
         code = data?.code or '',
-        title = data?.codename or 'Dispatch Notification',
+        title = data?.codename or T("DEFAULT.TITLE"),
         description = data.message or '',
         location = {
-          label = data?.codename or "Call Origin",
+          label = data?.codename or T("DEFAULT.LOCATION_LABEL"),
           coords = vector2(data?.coords.x or 0, data?.coords.y or 0)
         },
         time = CONFIG['default-time'],
