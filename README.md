@@ -31,4 +31,8 @@ It is highly recommended to alter the scripts creating the calls/dispatch events
 ```bash
 # Set the default/fallback time (in seconds) for dispatch messages
 setr lb-tablet-dispatch:default-time 100
+
+# Set the default locale for the various translations
+# Current locales: en
+setr lb-tablet-dispatch:locale en
 ```
