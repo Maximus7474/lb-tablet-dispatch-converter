@@ -21,6 +21,8 @@ A script providing compatibility from other dispatch/mdt scripts to also work wi
   - Untested
 - CD Dispatch
   - Untested
+- Bub MDT
+  - Untested
 
 ## Setup:
 
