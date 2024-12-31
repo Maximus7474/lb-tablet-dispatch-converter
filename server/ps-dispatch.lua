@@ -17,6 +17,6 @@ RegisterNetEvent('ps-dispatch:server:notify', function (data)
           coords = vector2(data?.coords.x or 0, data?.coords.y or 0)
         },
         time = CONFIG['default-time'],
-        job = "police"
+        job = ReceivingJob(data.jobs)
     })
 end)

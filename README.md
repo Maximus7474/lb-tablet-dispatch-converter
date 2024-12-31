@@ -40,4 +40,10 @@ setr lb-tablet-dispatch:default-time 100
 # Set the default locale for the various translations
 # Current locales: en
 setr lb-tablet-dispatch:locale en
+
+# Define which jobs should link to the police MDT/CAD
+setr lb-tablet-dispatch:police-jobs '["police", "sheriff", "leo"]'
+
+# Define which jobs should link to the ambulance MDT/CAD
+setr lb-tablet-dispatch:ambulance-jobs', '["ambulance", "hospital", "sams"]'
 ```
